@@ -272,7 +272,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 echo '<center>
 <div class="fig-ansi">
-<pre id="taag_font_ANSIShadow" class="fig-ansi"><span style="color: rgb(67, 142, 241);">   <strong>     
+<pre id="taag_font_ANSIShadow" class="fig-ansi"><span style="color: rgb(255, 251, 241);">   <strong>     
 PELLER  </strong> </span></pre>
 </div>
 </center>';
