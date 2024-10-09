@@ -1,1 +1,218 @@
-<!DOCTYPE html> <html lang="en" class="dark-theme"><head>     <meta charset="UTF-8">     <meta http-equiv="X-UA-Compatible" content="IE=edge">     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <link rel="shortcut icon" href="data:image/svg xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzJweCIgaGVpZ2h0PSIzMnB4IiBmaWxsPSIjMDAwMDAwIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Im0zMzUuMzcgMjU3Ljk1Yy03LjE4NyAwLTEzLjAzMyA1Ljg0Ny0xMy4wMzMgMTMuMDM0djQzLjU2MmMwIDcuMTg3IDUuODQ3IDEzLjAzMyAxMy4wMzMgMTMuMDMzaDE3Ni42M3YtNjkuNjI4aC0xNzYuNjN6bTIxLjk4IDU0LjkwN2MtMTEuMDk3IDAtMjAuMDk0LTguOTk2LTIwLjA5NC0yMC4wOTQgMC0xMS4wOTcgOC45OTYtMjAuMDk0IDIwLjA5NC0yMC4wOTRzMjAuMDk0IDguOTk2IDIwLjA5NCAyMC4wOTRjLTFlLTMgMTEuMDk4LTguOTk3IDIwLjA5NC0yMC4wOTQgMjAuMDk0eiIvPgoJPC9nPgo8L2c CjxnPgoJPGc CgkJPHBhdGggZD0ibTMzNS4zNyAyMjcuNTNoMTc2LjYzdi03NC41ODRjMC0yMy45NTktMTkuNDkyLTQzLjQ1LTQzLjQ1LTQzLjQ1aC00MjUuMWMtMjMuOTU4IDAtNDMuNDUgMTkuNDkxLTQzLjQ1IDQzLjQ1djMxMC4wNWMwIDIzLjk1OSAxOS40OTIgNDMuNDUxIDQzLjQ1IDQzLjQ1MWg0MjUuMWMyMy45NTkgMCA0My40NS0xOS40OTIgNDMuNDUtNDMuNDUxdi0xMDVoLTE3Ni42M2MtMjMuOTU5IDAtNDMuNDUtMTkuNDkxLTQzLjQ1LTQzLjQ1di00My41NjJjMC0yMy45NTkgMTkuNDkzLTQzLjQ1MSA0My40NS00My40NTF6Ii8 Cgk8L2c CjwvZz4KPGc Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjQyNS40MiA1LjU1MiAyMTkuMDcgNzkuMDgyIDQ1MS42MyA3OS4wODIiLz4KCTwvZz4KPC9nPgo8L3N2Zz4="> <style type="text/css" id="core-notify">.notifyjs-corner { 	position: fixed; 	margin: 5px; 	z-index: 1050; } .notifyjs-corner .notifyjs-wrapper, .notifyjs-corner .notifyjs-container { 	position: relative; 	display: block; 	height: inherit; 	width: inherit; 	margin: 3px; }  .notifyjs-wrapper { 	z-index: 1; 	position: absolute; 	display: inline-block; 	height: 0; 	width: 0; }  .notifyjs-container { 	display: none; 	z-index: 1; 	position: absolute; }  .notifyjs-hidable { 	cursor: pointer; }  [data-notify-text],[data-notify-html] { 	position: relative; }  .notifyjs-arrow { 	position: absolute; 	z-index: 2; 	width: 0; 	height: 0; } </style> </head> <body class="__text_mode_READY__">     <span class="toTopBtn">         <i class="fas fa-angle-up"></i>     </span>     <div class="overlayer"></div>     <div class="loader" style="display: none;"></div>     <main class="dashboard-section"> 		        <article class="main--content"> 			            <div class="dashborad--content" style="min-height: calc(-50px   100vh);">     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>Crypto Payment</title>     <style>     body {     font-family: 'Arial', sans-serif;     background-color: #e9ecef;     padding: 0px; } .container {     margin: 0 auto;     background-color: #fff;     padding: 20px;     border-radius: 10px;     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); } h1 {     text-align: center;     margin-bottom: 30px;     color: #333; } header {     display: flex;     justify-content: flex-start; } .home-button {     padding: 10px 20px;     margin-bottom: 20px;     background-color: #007bff;     color: white;     border: none;     border-radius: 5px;     cursor: pointer;     transition: background-color 0.2s; } .home-button:hover {     background-color: #0056b3; } label {     display: block;     margin-bottom: 10px;     font-weight: bold;     color: #555; } select {     padding: 10px 15px;     width: 100%;     border: none;     border-radius: 5px;     font-size: 16px;     color: #333;     background-color: #f8f9fa;     appearance: none;     background-image: url('data:image/svg xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23555" d="M2 3L0 0h4z"/></svg>');     background-repeat: no-repeat;     background-position: right 0.7em top 50%;     background-size: 8px;     cursor: pointer;     transition: background-color 0.3s; } select:hover {     background-color: #e2e6ea; } .info-card {     padding: 20px;     margin-top: 30px;     border: 1px solid #e2e6ea;     border-radius: 5px;     display: none; } footer {     margin-top: 30px;     padding-top: 20px;     border-top: 1px solid #e2e6ea; } footer ul {     list-style-type: none;     padding: 0;     display: flex;     justify-content: space-between; } footer li a {     color: #007bff;     text-decoration: none;     font-size: 15px;     transition: color 0.2s; } footer li a:hover {     color: #0056b3; } .input-container {     display: flex;     align-items: center;     margin-bottom: 10px; } input[type="text"] {     padding: 10px;     margin-right: 5px;     border: 1px solid #ccc;     border-radius: 4px; } .copy-btn {     padding: 10px;     cursor: pointer;     background-color: #f4f4f4;     border: 1px solid #ccc;     border-radius: 4px; } .copy-btn:hover {     background-color: #e2e2e2; } </style> <br> <br> <br>     <div class="container"><h3><b><center>Deposit Payment</center></b></h3><br>         <p style="text-align: justify;margin-bottom: 50px;">Please select your preferred crypto and we will automatically generate a payment address for you. After you get the payment please send minimum $100 to the selected network and coin. After successful payment you can close this page and we will automatically credit your account.</p> <div style="text-align: center;"><b style="display: block;margin-top: 50px;font-size: 25px;color: #444;"> We Accept: </b> <img id="logo" height="50" width="50" style="border-radius: 50px;" src="https://i.imgur.com/OCqVnuj.png"> <img id="logo" height="50" width="50" style="border-radius: 50px;" src="https://i.imgur.com/2G6tOPQ.png"> <img id="logo" height="50" width="50" style="border-radius: 50px;" src="https://i.imgur.com/TVFmQpt.png"> </div><br>         <label for="network">Select Network:</label>         <select id="network" style="border:solid 1px" class="__text_mode_custom_bg__">             <option value="" selected="">Select your crypto network</option>             <option value="Bitcoin">Bitcoin</option> 			<option value="Ethereum">Ethereum</option> 			<option value="Tetherer">USDT(ERC20)</option> 			<option value="Tetherer20">USDT(TRC20)</option>         </select>         <div class="info-card" id="content" style="display: none;"><br><br><br><div class="input-container"><input type="text" readonly="" style="width: 49%;" value=""><button class="copy-btn" onclick="copyToClipboard(this)">Copy </button></div><br><div style="text-align: center;">         </div><br><center>Please copy the address or scan QR and send amount of coin with given network to this address.</center></div>     </div>     <script>    document.getElementById('network').addEventListener('change', function() {    const selectedValue = this.value;    const contentDiv = document.getElementById('content');    contentDiv.style.display = "block";    switch (selectedValue) {    case 'Bitcoin':         contentDiv.innerHTML = '<p style="display: block;">You can only send <b>Bitcoin</b> to this address.</center> Sending other coin might result in loss of your coin</p><p>Minimum deposit: <font color="red"><b>$100</font></b></p><b>Selected Network: (Bitcoin)</b><br><br><br><div class="input-container"> Bitcoin Address: <input type="text" readonly="" style="width: 49%;" value="bc1qp2rlcl0tsj6sffexrzlzq2s7xwh0p44md0tnwt"><button class="copy-btn" onclick="copyToClipboard(this)">Copy </button></div><br><div style="text-align: center;"><img style="height: 200px;" src="https://www.bitcoinqrcodemaker.com/api/?style=bitcoin&address=bc1qp2rlcl0tsj6sffexrzlzq2s7xwh0p44md0tnwt"></div><br><center>Please copy the address or scan QR and send amount of coin with given network to this address.</center>';         break;     case 'Ethereum':         contentDiv.innerHTML = '<p style="display: block;">You can only send <b>Ethereum</b> to this address.</center> Sending other coin might result in loss of your coin</p><p>Minimum deposit: <font color="red"><b>$100</font></b></p><b>Selected Network: (ERC20)</b><br><br><br><div class="input-container"> Ethereum Address: <input type="text" readonly="" style="width: 49%;" value="0x9d40d1c00de60d199d65e91b06b238035b90cd77"><button class="copy-btn" onclick="copyToClipboard(this)">Copy </button></div><br><div style="text-align: center;"><img style="height: 200px;" src="https://www.bitcoinqrcodemaker.com/api/?style=ethereum&address=0x9d40d1c00de60d199d65e91b06b238035b90cd77"></div><br><center>Please copy the address or scan QR and send amount of coin with given network to this address.</center>';         break;     case 'Tetherer':         contentDiv.innerHTML = '<p style="display: block;">You can only send <b>USDT(ERC20)</b> to this address.</center> Sending other coin might result in loss of your coin</p><p>Minimum deposit: <font color="red"><b>$100</font></b></p><b>Selected Network: (ERC20)</b><br><br><br><div class="input-container"> USDT(ERC20) Address: <input type="text" readonly="" style="width: 49%;" value="0x9d40d1c00de60d199d65e91b06b238035b90cd77"><button class="copy-btn" onclick="copyToClipboard(this)">Copy </button></div><br><div style="text-align: center;"><img style="height: 200px;" src="https://www.bitcoinqrcodemaker.com/api/?style=ethereum&address=0x9d40d1c00de60d199d65e91b06b238035b90cd77"></div><br><center>Please copy the address or scan QR and send amount of coin with given network to this address.</center>';         break;     case 'Tetherer20':         contentDiv.innerHTML = '<p style="display: block;">You can only send <b>USDT(TRC20)</b> to this address.</center> Sending other coin might result in loss of your coin</p><p>Minimum deposit: <font color="red"><b>$100</font></b></p><b>Selected Network: (TRC20)</b><br><br><br><div class="input-container"> USDT(TRC20) Address: <input type="text" readonly="" style="width: 49%;" value="TTx9c1rGktXvBxmRG8Ne6ohuvJYPbzTL4s"><button class="copy-btn" onclick="copyToClipboard(this)">Copy </button></div><br><div style="text-align: center;"><img style="height: 200px;" src="https://api.qrserver.com/v1/create-qr-code/?data=TTx9c1rGktXvBxmRG8Ne6ohuvJYPbzTL4s"></div><br><center>Please copy the address or scan QR and send amount of coin with given network to this address.</center>';         break;     default:         contentDiv.style.display = "none";         break;    }});function copyToClipboard(btn) {    const input = btn.previousElementSibling;    input.select();    document.execCommand("copy");}window.onload = function() {    document.getElementById('network').value = "";}; </script> <br> </body> </html>
+<!DOCTYPE html>
+<html lang="en" class="dark-theme">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin2pay - Crypto Payment</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://hostedpage.coin2pay.io/assets/img/logo/logo-coin2pay_icon-light.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e9ecef;
+            padding: 0px;
+        }
+        .container {
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #555;
+        }
+        select {
+            padding: 10px 15px;
+            width: 100%;
+            border: solid 1px;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #f8f9fa;
+            appearance: none;
+            cursor: pointer;
+        }
+        select:hover {
+            background-color: #e2e6ea;
+        }
+        .info-card {
+            padding: 20px;
+            margin-top: 30px;
+            border: 1px solid #e2e6ea;
+            border-radius: 5px;
+            display: none;
+        }
+        .input-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            margin-right: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .copy-btn, .submit-btn {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .copy-btn:hover, submit-btn:hover {
+            background-color: #e2e2e2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3><b><center>Cryptocurrency Automatic Gateway</center></b></h3>
+        <h5><center>Fast, secure, and easy payments</center></h5>
+        <div style="text-align: center;">
+            <b style="font-size: 25px; color: #444;">We Accept:</b><br>
+            <img id="logo" height="50" width="50" style="border-radius: 50px;" src="https://i.imgur.com/OCqVnuj.png">
+            <img id="logo" height="50" width="50" style="border-radius: 50px;" src="https://i.imgur.com/2G6tOPQ.png">
+            <img id="logo" height="50" width="50" style="border-radius: 50px;" src="https://i.imgur.com/TVFmQpt.png">
+        </div>
+        
+        <p style="text-align: left; margin-top: 50px;">
+            Please select your preferred crypto, and we will automatically generate a payment address for you. <br>
+            After getting the payment address, please send a minimum of $100 to the selected network and coin. <br>
+            Your payment will be processed immediately after confirmation.
+        </p>
+        
+
+        <label for="network">Select Gateway:</label>
+        <select id="network">
+            <option value="" selected="">--Select your Payment Gateway--</option>
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Ethereum">Ethereum</option>
+            <option value="Tetherer">USDT (ERC20)</option>
+            <option value="Tetherer20">USDT (TRC20)</option>
+        </select>
+
+        <div class="info-card" id="content">
+            <div class="input-container">
+                <input type="text" readonly="" style="width: 49%;" value="">
+                <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('network').addEventListener('change', function() {
+            const selectedValue = this.value;
+            const contentDiv = document.getElementById('content');
+            contentDiv.style.display = "block";
+            
+            switch (selectedValue) {
+                case 'Bitcoin':
+                    contentDiv.innerHTML = `
+                        <p>You can only send <b>Bitcoin</b> to this address. Sending other coins might result in loss of your funds.</p>
+                        <p>Minimum deposit: <font color="red"><b>$100</b></font></p>
+                        <b>Selected Network: Bitcoin</b><br><br>
+                        <div style="text-align: center;">
+                            <img style="height: 200px;" src="https://www.bitcoinqrcodemaker.com/api/?style=bitcoin&address=bc1qxmgan0snj8x6f6e7qzjrq9k3wugyg4rllgmxp9">
+                        </div>
+                        <div class="input-container">
+                            Bitcoin Address: 
+                            <input type="text" readonly style="width: 49%;" value="bc1qxmgan0snj8x6f6e7qzjrq9k3wugyg4rllgmxp9">
+                            <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
+                        </div>
+                        <center>Scan the QR code or copy the address to proceed with your payment.<br><br><br>
+                        <button onclick="confirmTransfer()" class="submit-btn" >Submit Payment</button></center>
+                    `;
+                    break;
+
+                case 'Ethereum':
+                    contentDiv.innerHTML = `
+                        <p>You can only send <b>Ethereum</b> to this address. Sending other coins might result in loss of your funds.</p>
+                        <p>Minimum deposit: <font color="red"><b>$100</b></font></p>
+                        <b>Selected Network: Ethereum (ERC20)</b><br><br>
+                        <div style="text-align: center;">
+                            <img style="height: 200px;" src="https://www.bitcoinqrcodemaker.com/api/?style=ethereum&address=0x56216ac77bd56e993d6f128a90e9a804c48486a3">
+                        </div>
+                        <div class="input-container">
+                            Ethereum Address: 
+                            <input type="text" readonly style="width: 49%;" value="0x56216ac77bd56e993d6f128a90e9a804c48486a3">
+                            <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
+                        </div>
+                        <center>Scan the QR code or copy the address to proceed with your payment.<br><br><br>
+                        <button class="submit-btn" >Submit Payment</button></center>
+                    `;
+                    break;
+
+                case 'Tetherer':
+                    contentDiv.innerHTML = `
+                        <p>You can only send <b>USDT (ERC20)</b> to this address. Sending other coins might result in loss of your funds.</p>
+                        <p>Minimum deposit: <font color="red"><b>$100</b></font></p>
+                        <b>Selected Network: USDT (ERC20)</b><br><br>
+                        <div style="text-align: center;">
+                            <img style="height: 200px;" src="https://www.bitcoinqrcodemaker.com/api/?style=ethereum&address=0x56216ac77bd56e993d6f128a90e9a804c48486a3">
+                        </div>
+                        <div class="input-container">
+                            USDT (ERC20) Address: 
+                            <input type="text" readonly style="width: 49%;" value="0x56216ac77bd56e993d6f128a90e9a804c48486a3">
+                            <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
+                        </div>
+                        <center>Scan the QR code or copy the address to proceed with your payment.<br><br><br>
+                        <button class="submit-btn" >Submit Payment</button></center>
+                    `;
+                    break;
+
+                case 'Tetherer20':
+                    contentDiv.innerHTML = `
+                        <p>You can only send <b>USDT (TRC20)</b> to this address. Sending other coins might result in loss of your funds.</p>
+                        <p>Minimum deposit: <font color="red"><b>$100</b></font></p>
+                        <b>Selected Network: USDT (TRC20)</b><br><br>
+                        <div style="text-align: center;">
+                            <img style="height: 200px;" src="https://api.qrserver.com/v1/create-qr-code/?data=TPAUAkBAYSr9xakYKwUKE4Uo7kcheJmY5k">
+                        </div>
+                        <div class="input-container">
+                            USDT (TRC20) Address: 
+                            <input type="text" readonly style="width: 49%;" value="TPAUAkBAYSr9xakYKwUKE4Uo7kcheJmY5k">
+                            <button class="copy-btn" onclick="copyToClipboard(this)">Copy</button>
+                        </div>
+                        <center>Scan the QR code or copy the address to proceed with your payment.<br><br><br>
+                        <button class="submit-btn" >Submit Payment</button></center>
+                    `;
+                    break;
+
+                default:
+                    contentDiv.style.display = "none";
+                    break;
+            }
+        });
+
+        function copyToClipboard(btn) {
+            const input = btn.previousElementSibling;
+            input.select();
+            document.execCommand("copy");
+        }
+
+        window.onload = function() {
+            document.getElementById('network').value = "";
+        };
+function confirmTransfer() {
+    alert("Payment submitted. Waiting for confirmation.");
+    
+    // Tampilkan loading selama 15 detik
+    setTimeout(function() {
+        // Setelah 15 detik kembali ke halaman sebelumnya
+        history.back();
+    }, 1000); // 15000 milidetik = 15 detik
+}
+    </script>
+</body>
+</html>
