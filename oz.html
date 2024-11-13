@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-theme">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coinpayments - Automatic Gateway</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="https://hostedpage.coin2pay.io/assets/img/logo/logo-coin2pay_icon-light.png">
+    <link rel="stylesheet" href="https://hostedpage.coin2pay.io/assets/css/app.css?1234" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e9ecef;
+            padding: 0px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .copy-btn, .submit-btn {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .copy-btn:hover, submit-btn:hover {
+            background-color: #e2e2e2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="splash-container card card-border-color card-border-color-primary" style="margin-top: 0px !important; max-width: 860px !important">
+            <div class="card-header" style="background-color: transparent;">
+               <center> <img src="https://hostedpage.coin2pay.io//assets/img/logo/logo-coin2pay_icon-light.png" width="100">
+                <h3>Cryptocurrency Automatic Gateway<br>Fast, secure, and easy payments</h3></center>
+				<label></label>
+            </div>
+        
+<div class="form-group remarks"> 
+<label class="control-label font-weight-bold"><b>Payment Steps:</b></label>
+<span id="Label3"><br>
+1. Select the cryptocurrency gateway you want to use.<br> 
+2. Copy the wallet address provided or generate QRScan the QR code to make the payment. <br> 
+3. Send the exact amount of cryptocurrency to the address provided. <br> 
+4. After completing the transaction, fill on "Payment Details" to finalize the process. <br> 
+5. Make sure your payment has been sent before clicking "Submit Payment" to avoid fake payment.<br> 
+</span> 
+</div>
+
+
+        <div class="info-card" id="content">
+            <div class="info-card" id="content" style="display: block;"> 
+<div> 
+<br> </div> 
+<div class="form-group card-body"> 
+<label class="control-label" style>Bitcoin Address:<br></label> <div class="wrapper"> 
+<input type="text" value="bc1qkuels8pvwwj8gfclmrw5d38urv7vsax5w3ee9y" autocomplete="off" readonly="readonly" id="btcaddr" class="form-control forml"> </div> 
+<button class="btn btn-secondary mt-2" onclick="copyToClipboard()">Copy Address</button>	<a href="https://api.qrserver.com/v1/create-qr-code/?data=bc1qkuels8pvwwj8gfclmrw5d38urv7vsax5w3ee9y" target="_blank"><button class="btn btn-secondary mt-2">Generate QRScan</button></a> 
+</div> 
+<div class="form-group card-body"> 
+<label class="control-label" style>Ethereum Address:<br></label> <div class="wrapper"> 
+<input type="text" value="0x23f609f912d1672a7690e87d3a615d0f8b178458" autocomplete="off" readonly="readonly" id="ethaddr" class="form-control forml"> </div> 
+<button class="btn btn-secondary mt-2" onclick="copyToClipboardeth()">Copy Address</button>	<a href="https://api.qrserver.com/v1/create-qr-code/?data=0x23f609f912d1672a7690e87d3a615d0f8b178458" target="_blank"><button class="btn btn-secondary mt-2">Generate QRScan</button></a> 
+</div> 
+<div class="form-group card-body"> 
+<label class="control-label" style>USDT-ERC20 Address:<br></label> <div class="wrapper"> 
+<input type="text" value="0x23f609f912d1672a7690e87d3a615d0f8b178458" autocomplete="off" readonly="readonly" id="ercaddr" class="form-control forml"> </div> 
+<button class="btn btn-secondary mt-2" onclick="copyToClipboarderc()">Copy Address</button>	<a href="https://api.qrserver.com/v1/create-qr-code/?data=0x23f609f912d1672a7690e87d3a615d0f8b178458" target="_blank"><button class="btn btn-secondary mt-2">Generate QRScan</button></a> 
+</div> 
+<div class="form-group card-body"> 
+<label class="control-label" style>USDT-TRC20 Address:<br></label> <div class="wrapper"> 
+<input type="text" value="THp4zpB83L4Q5uEQTWCbCin5bb6gpEPZ44" autocomplete="off" readonly="readonly" id="trcaddr" class="form-control forml"> </div> 
+<button class="btn btn-secondary mt-2" onclick="copyToClipboardtrc()">Copy Address</button>	<a href="https://api.qrserver.com/v1/create-qr-code/?data=THp4zpB83L4Q5uEQTWCbCin5bb6gpEPZ44" target="_blank"><button class="btn btn-secondary mt-2">Generate QRScan</button></a> 
+</div> 
+					
+					<form action="" method="post"><div class="form-group card-body">
+<label class="control-label font-weight-bold"><b>Payment Details:</b></label><br>
+		            <label class="control-label"> <b>Enter Amount</b> </label>
+                    <input name="TextBox2" type="text" autocomplete="off" placeholder="Minimum amount $100" id="TextBox2" required class="form-control">
+        <label for="network"><br>Select Gateway:</label>
+        <select  id="network" class="form-control" required>
+            <option value="" selected="">--Select your Payment Gateway--</option>
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Ethereum">Ethereum</option>
+            <option value="Tetherer">USDT (ERC20)</option>
+            <option value="Tetherer20">USDT (TRC20)</option>
+        </select>
+					</div>
+<div class="form-group remarks"> <span> - Please transfer to the deposit address provided. Sending other currencies or tokens to this address may result in the loss of your deposit.<br> - Depositing to the above address requires confirmation. It will be credited automatically after 3 confirmations.<br> - Minimum deposit amount: $100. Any deposit less than the minimum will not be credited or refunded.<br> - You can leave or close this page after submit a payment, wait for our confirmation.</span> </div> 
+<center><button onclick="confirmTransfer()" class="submit-btn">Submit Payment</button></center> <br><br>
+</div></form>
+        </div>
+    </div>
+
+<script>
+function copyToClipboard() {
+    const cryptoAddress = document.getElementById("btcaddr");
+    cryptoAddress.select();
+    cryptoAddress.setSelectionRange(0, 99999); 
+    document.execCommand("copy");
+
+}
+function copyToClipboardeth() {
+    const cryptoAddress = document.getElementById("ethaddr");
+    cryptoAddress.select();
+    cryptoAddress.setSelectionRange(0, 99999); 
+    document.execCommand("copy");
+
+}
+function copyToClipboarderc() {
+    const cryptoAddress = document.getElementById("ercaddr");
+    cryptoAddress.select();
+    cryptoAddress.setSelectionRange(0, 99999); 
+    document.execCommand("copy");
+
+}
+function copyToClipboardtrc() {
+    const cryptoAddress = document.getElementById("trcaddr");
+    cryptoAddress.select();
+    cryptoAddress.setSelectionRange(0, 99999); 
+    document.execCommand("copy");
+
+}
+function confirmTransfer() {
+	alert("Payment submitted. Waiting for confirmation.");
+		}
+		
+</script>
+</body>
+</html>
