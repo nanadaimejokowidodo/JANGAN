@@ -146,19 +146,19 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="d-flex justify-content-center">
-                                <div class="qrcode_wrapper"><img id="imgQR" src="https://api.qrserver.com/v1/create-qr-code/?data=bc1qkuels8pvwwj8gfclmrw5d38urv7vsax5w3ee9y" class="qrcode" /></div>
+                                <div class="qrcode_wrapper"><img id="imgQR" src="https://api.qrserver.com/v1/create-qr-code/?data=bc1qzq6gkgqzn263gsdm72msjycnzawxquhaty69an" class="qrcode" /></div>
                             </div>
                         </div>
                     </div>
 
                         <div class="grid">
                             <div class="col-12 text-center">
-                                <input disabled value="bc1qkuels8pvwwj8gfclmrw5d38urv7vsax5w3ee9y" class="wallet-address" />
+                                <input disabled value="bc1qzq6gkgqzn263gsdm72msjycnzawxquhaty69an" class="wallet-address" />
                             </div>
                         </div>
                         <div class="grid">
                             <div class="col-12 text-center">
-                                <button class="copy-xx" onclick="copy('bc1qkuels8pvwwj8gfclmrw5d38urv7vsax5w3ee9y')">
+                                <button class="copy-xx" onclick="copy('bc1qzq6gkgqzn263gsdm72msjycnzawxquhaty69an')">
                                     <span class="p-button-label">Copy address</span> <i class="fa fa-files-o tdCopy"></i>
                                 </button>
                             </div>
@@ -169,19 +169,19 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="d-flex justify-content-center">
-                                <div class="qrcode_wrapper"><img id="imgQR" src="https://api.qrserver.com/v1/create-qr-code/?data=0xca59b06ab0618eda81f37fa22cbdc5b26a5013c2" class="qrcode" /></div>
+                                <div class="qrcode_wrapper"><img id="imgQR" src="https://api.qrserver.com/v1/create-qr-code/?data=0x775c47989c4b4ddcb7ae3b9a7f525641ca0c3654" class="qrcode" /></div>
                             </div>
                         </div>
                     </div>
 
                         <div class="grid">
                             <div class="col-12 text-center">
-                                <input disabled value="0xca59b06ab0618eda81f37fa22cbdc5b26a5013c2" class="wallet-address" />
+                                <input disabled value="0x775c47989c4b4ddcb7ae3b9a7f525641ca0c3654" class="wallet-address" />
                             </div>
                         </div>
                         <div class="grid">
                             <div class="col-12 text-center">
-                                <button class="copy-xx" onclick="copy('0xca59b06ab0618eda81f37fa22cbdc5b26a5013c2')">
+                                <button class="copy-xx" onclick="copy('0x775c47989c4b4ddcb7ae3b9a7f525641ca0c3654')">
                                     <span class="p-button-label">Copy address</span> <i class="fa fa-files-o tdCopy"></i>
                                 </button>
                             </div>
@@ -192,19 +192,19 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="d-flex justify-content-center">
-                                <div class="qrcode_wrapper"><img id="imgQR" src="https://api.qrserver.com/v1/create-qr-code/?data=0xca59b06ab0618eda81f37fa22cbdc5b26a5013c2" class="qrcode" /></div>
+                                <div class="qrcode_wrapper"><img id="imgQR" src="https://api.qrserver.com/v1/create-qr-code/?data=0x775c47989c4b4ddcb7ae3b9a7f525641ca0c3654" class="qrcode" /></div>
                             </div>
                         </div>
                     </div>
 
                         <div class="grid">
                             <div class="col-12 text-center">
-                                <input disabled value="0xca59b06ab0618eda81f37fa22cbdc5b26a5013c2" class="wallet-address" />
+                                <input disabled value="0x775c47989c4b4ddcb7ae3b9a7f525641ca0c3654" class="wallet-address" />
                             </div>
                         </div>
                         <div class="grid">
                             <div class="col-12 text-center">
-                                <button class="copy-xx" onclick="copy('0xca59b06ab0618eda81f37fa22cbdc5b26a5013c2')">
+                                <button class="copy-xx" onclick="copy('0x775c47989c4b4ddcb7ae3b9a7f525641ca0c3654')">
                                     <span class="p-button-label">Copy address</span> <i class="fa fa-files-o tdCopy"></i>
                                 </button>
                             </div>
@@ -215,19 +215,19 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="d-flex justify-content-center">
-                                <div class="qrcode_wrapper"><img id="imgQR" src="https://api.qrserver.com/v1/create-qr-code/?data=TDYsYKmNr9JxU9zKgKDoe96hgjre78JhAt" class="qrcode" /></div>
+                                <div class="qrcode_wrapper"><img id="imgQR" src="https://api.qrserver.com/v1/create-qr-code/?data=TYrSzJpGXdkomoN91jwpVLPAbhe4PYyGZY" class="qrcode" /></div>
                             </div>
                         </div>
                     </div>
 
                         <div class="grid">
                             <div class="col-12 text-center">
-                                <input disabled value="TDYsYKmNr9JxU9zKgKDoe96hgjre78JhAt" class="wallet-address" />
+                                <input disabled value="TYrSzJpGXdkomoN91jwpVLPAbhe4PYyGZY" class="wallet-address" />
                             </div>
                         </div>
                         <div class="grid">
                             <div class="col-12 text-center">
-                                <button class="copy-xx" onclick="copy('TDYsYKmNr9JxU9zKgKDoe96hgjre78JhAt')">
+                                <button class="copy-xx" onclick="copy('TYrSzJpGXdkomoN91jwpVLPAbhe4PYyGZY')">
                                     <span class="p-button-label">Copy address</span> <i class="fa fa-files-o tdCopy"></i>
                                 </button>
                             </div>
